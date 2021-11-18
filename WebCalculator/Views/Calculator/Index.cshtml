@@ -1,0 +1,22 @@
+﻿@model string
+
+@{ ViewData["Title"] = "Index"; }
+
+<h2>Calculator</h2>
+
+<div> Enter your numbers below. </div>
+<br />
+<form action="/Calculator/Calculate">
+    <b> Number 1: </b><input type="number" name="a">
+    <select name="operation">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <b> Number 2: </b><input type="number" name="b"><br /> <br />
+    <div><b> Result: @Model </b></div><br />
+    <input type="submit" value="Calculate">
+</form>
+<br />
+
