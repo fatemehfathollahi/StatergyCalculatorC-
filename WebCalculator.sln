@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculator", "WebCalculator\WebCalculator.csproj", "{EAC39CC7-89BE-41F4-9536-F4BCA2CEA92E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculator.Test", "WebCalculator.Test\WebCalculator.Test.csproj", "{54376CB0-8426-4C94-BF78-24A9DF98BA37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EAC39CC7-89BE-41F4-9536-F4BCA2CEA92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC39CC7-89BE-41F4-9536-F4BCA2CEA92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC39CC7-89BE-41F4-9536-F4BCA2CEA92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54376CB0-8426-4C94-BF78-24A9DF98BA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54376CB0-8426-4C94-BF78-24A9DF98BA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54376CB0-8426-4C94-BF78-24A9DF98BA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54376CB0-8426-4C94-BF78-24A9DF98BA37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
